@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivos para sair comigo este final de semana</title>
+
+    <style>
+        body {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYPeqCzwZhaUz5s0JzPO9MlarORqgleRCYPMQQJfL9zWRdxqcvUO14h37bJwN_0BwBQ0k&usqp=CAU');
+            background-size: cover;
+            background-repeat: repeat; /* Repete a imagem pequena por todo o fundo */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff1493; /* Rosa brilhante */
+        }
+
+        img {
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        button {
+            background-color: #ff1493; /* Rosa brilhante */
+            border: none;
+            color: white;
+            padding: 20px 40px; /* Aumentando o tamanho do botão */
+            font-size: 16px;
+            border-radius: 10px; /* Aumentando o raio da borda */
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #d111a1; /* Rosa mais escuro */
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Motivos para você sair comigo este final de semana</h1>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEEKYGJPaWemRbNieLcIwMKNxnbZ-A-JUDjAvlQvKJGlaS3bdalU3HzolOUuNpEMM7O7c&usqp=CAU" alt="Emoji fofo">
+        
+        <p>Olá! Gostaria de sair comigo este final de semana?</p>
+        <p>Você não vai se arrepender! Aqui estão alguns motivos:</p>
+
+        <a href="https://www.youtube.com/watch?v=fvdIUA9i9kg&feature=youtu.be"><button>Sim, aceito e quero ver os motivos</button></a>
+        <button onclick="aviso()">Não, não aceito</button>
+    </div>
+
+    <script>
+        function aviso() {
+            alert("Você fez uma péssima escolha!");
+            window.location.href = "https://www.youtube.com/watch?si=z6Hvk-BVXzB4oAAK&v=xmDfOkW4EYk&feature=youtu.be";
+        }
+    </script>
+
+</body>
+</html>
